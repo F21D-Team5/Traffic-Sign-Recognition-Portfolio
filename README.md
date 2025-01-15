@@ -41,14 +41,14 @@ Pixel values were normalized from [0-255] to [0-1] by dividing by 255 to enhance
 #### 3. Feature Engineering:
 New datasets with 50, 100, and 200 features were created, each corresponding to specific classes for classification.
 
-#### 4.Modeling:
+#### 4. Modeling:
 1. Naïve Bayes Classifier: The model was trained on the datasets, achieving accuracies of 0.73, 0.74, and 0.66 for 50, 100, and 200 features, respectively.
 2. K-Means Clustering: Feature scaling was performed using Standard Scaler, followed by PCA for dimensionality reduction. The optimal number of clusters was determined using the elbow and silhouette methods, resulting in a K value of 4.
 3. Decision Trees: A decision tree classifier was plotted with a maximum depth of 2. Ten-fold cross-validation was used to evaluate the model, with metrics such as true positive rate (TPR), false positive rate (FPR), precision, and recall computed for each fold.
 4. Random Forest Classifier: Implemented using the Weka library, following similar methods as the decision tree.
 5. Convolutional Neural Network (CNN): A suitable CNN model for image classification was designed, experimenting with the number of convolutional layers and kernel sizes. The model was compiled using the Adam optimizer and tuned using Grid Search and Randomized Search to identify the best hyperparameters.
 
-#### 5.Evaluation:
+#### 5. Evaluation:
 The final model was evaluated on the test datasets, achieving a test accuracy of 92%.
 
 ## Conclusion
@@ -59,7 +59,4 @@ This project was completed as a group effort during the Data Mining and Machine 
 We would like to thank our teammates for their collaboration and contributions, which were instrumental in the successful completion of this project.
 
 
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
